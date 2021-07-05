@@ -1,0 +1,30 @@
+// Variables
+$primaryBtn: rgb(182, 85, 153);
+
+// Nest styles
+header {
+  background: whitesmoke;
+  button {
+    background-color: $primaryBtn;
+    // Attributes
+    &:hover {
+      background: green;
+    }
+  }
+}
+
+// Import other scss to main 
+@import "./footer";
+
+// Reusable functions called Mixins
+@mixin flexCenter($direction) {
+  height: 100vh;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  @imclude flexCenter(column);
+}
