@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap");
 header {
-  background: whitesmoke;
+  background: #5605be;
 }
 
 header button {
@@ -58,13 +58,27 @@ header .logo {
   font-weight: bold;
 }
 
-header nav {
-  float: right;
-}
-
-header nav ul {
+header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+header .social-header, header .hero-design {
+  display: none;
+}
+
+header .hero {
+  background: #6E00FF;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
 }
 /*# sourceMappingURL=main.css.map */

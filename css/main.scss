@@ -3,7 +3,7 @@ $primaryBtn: rgb(182, 85, 153);
 
 // Nest styles
 header {
-  background: whitesmoke;
+    background: #5605be;
   button {
     background-color: $primaryBtn;
     // Attributes
@@ -67,11 +67,25 @@ header {
     font-weight: bold;
   }
 
-  nav {
-    float: right;
+  ul {
+    display: flex;
 
-    ul {
-      display: flex;
+    a {
+      display: block;
+      padding: 0 1em;
     }
+    
+  }
+
+  .social-header, .hero-design {
+    display: none;
+  }
+
+  .hero {
+    background: #6E00FF;
+    color: white;
+    display: grid;
+    text-align:  center;
+    padding: 4em;
   }
 }
