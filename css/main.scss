@@ -77,15 +77,22 @@ header {
     
   }
 
-  .social-header, .hero-design {
-    display: none;
-  }
+}
 
-  .hero {
-    background: #6E00FF;
-    color: white;
-    display: grid;
-    text-align:  center;
-    padding: 4em;
+.social-header, .hero-design {
+  display: none;
+}
+
+.hero {
+  background: #6E00FF;
+  color: white;
+  display: grid;
+  text-align:  center;
+  padding: 4em;
+
+  .content {
+    h1 {
+      color: white;
+    }
   }
 }

@@ -69,16 +69,20 @@ header ul a {
   padding: 0 1em;
 }
 
-header .social-header, header .hero-design {
+.social-header, .hero-design {
   display: none;
 }
 
-header .hero {
+.hero {
   background: #6E00FF;
   color: white;
   display: -ms-grid;
   display: grid;
   text-align: center;
   padding: 4em;
+}
+
+.hero .content h1 {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
