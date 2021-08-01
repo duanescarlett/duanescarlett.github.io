@@ -28,3 +28,50 @@ header {
 header {
   @imclude flexCenter(column);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {width: 100%;}
+
+.nav-container {
+  background: #6700EE;
+
+  a {
+    color: white;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #00F7FF;
+    font-weight: bold;
+  }
+
+  nav {
+    float: right;
+
+    ul {
+      display: flex;
+    }
+  }
+}
