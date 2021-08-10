@@ -284,14 +284,14 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 7em;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 13em;
     float: right;
   }
   .social-header ul img {
-    width: 20px;
+    width: 32px;
   }
   .hero {
     display: -ms-grid;
@@ -317,6 +317,36 @@ section {
     display: unset;
     margin-left: -50%;
     margin-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .social-header {
+    padding: 2em 10em 2em 0;
+  }
+  section {
+    padding: 10em 10em 4em 10em;
+  }
+  .hero .content {
+    padding: 6em 8em 6em 10em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+  .social-header {
+    padding: 2em 10em 2em 0;
+  }
+  section {
+    padding: 6em 10em 4em 10em;
+  }
+  .hero .content {
+    padding: 9em 10em 6em 10em;
   }
 }
 /*# sourceMappingURL=main.css.map */
