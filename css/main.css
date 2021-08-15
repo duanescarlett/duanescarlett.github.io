@@ -259,6 +259,13 @@ section {
 }
 
 @media only screen and (min-width: 1050px) {
+  .displayImg {
+    width: 510px;
+    height: 270px;
+    border-color: #3EFBD9;
+    border-style: solid;
+    border-width: 0.75em;
+  }
   .hero {
     height: 90vh;
   }
@@ -337,6 +344,13 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  .displayImg {
+    width: 510px;
+    height: 270px;
+    border-color: #3EFBD9;
+    border-style: solid;
+    border-width: 0.75em;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
@@ -351,6 +365,13 @@ section {
   }
   .hero .content {
     padding: 9em 10em 6em 10em;
+  }
+  .displayImg {
+    width: 510px;
+    height: 270px;
+    border-color: #3EFBD9;
+    border-style: solid;
+    border-width: 0.75em;
   }
 }
 /*# sourceMappingURL=main.css.map */
